@@ -1,9 +1,5 @@
-# IMPORTANT: Bug Fixes
+# Java Script Face Detection
 
-## `navigator.getUserMedia`
+## Powered by SCHEUNENTOR
 
-`navigator.getUserMedia` is now deprecated and is replaced by `navigator.mediaDevices.getUserMedia`. To fix this bug replace all versions of `navigator.getUserMedia` with `navigator.mediaDevices.getUserMedia`
-
-## Low-end Devices Bug
-
-The video eventListener for `play` fires up too early on low-end machines, before the video is fully loaded, which causes errors to pop up from the Face API and terminates the script (tested on Debian [Firefox] and Windows [Chrome, Firefox]). Replaced by `playing` event, which fires up when the media has enough data to start playing.
+![Blue and Gray Modern Flat Protection Icon Security Logo](https://github.com/anasm20/Fingerprint-Matching/assets/112882511/d720d535-d5b5-4a82-b77e-c50cfd0a8192)
